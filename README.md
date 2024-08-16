@@ -7,6 +7,20 @@ My Planner - To Do is a simple app built using JavaScript, HTML, CSS and Bootstr
 
 ● Wireframes
 
+![image](https://github.com/user-attachments/assets/26dde605-04ef-4914-ab1c-cd2783435441)
+
+
+
+
+![image](https://github.com/user-attachments/assets/cd2126d7-1d66-4dec-8acb-ab9369a84afb)
+
+
+
+
+![image](https://github.com/user-attachments/assets/144f4b15-35f2-4283-958a-d2f743975bd1)
+
+
+
 
 ● UX/UI -  Features
 
