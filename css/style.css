@@ -1,0 +1,101 @@
+/* Apply gradient background */
+body {
+    font-family: "Raleway", sans-serif;
+    background: lenear-gradient(to bottom right, #10c7b5, #027399);
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* adjust the container background to make content readable */
+.container-fluid {
+    background-color: rgba(146, 238, 238, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Sidebar styles */
+#sidebar {
+    height: 100vh;
+    padding-top: 20px;
+    border-right: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+#sidebar .nav-link {
+    font-size: 1.1em;
+    color: #333;    
+}
+
+#sidebar .nav-link.active {
+    font-weight: bold;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+/* Main content */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Overdue task style */
+.overdue {
+    color: red;
+}
+
+/* Task List Item Styles */
+.list-groug-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Task List Buttons */
+.edit-btn, .delete-btn {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.important-btn, .flag-btn {
+    background: none;
+    border: none;    
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem 0.7rem;
+}
+
+.important-btn, .fa-star {
+    color: gold;
+}
+
+.flag-btn, .fa-flag {
+    color: red;
+}
+
+/* Hover effects */
+.important-btn:hover, .flag-btn:hover {
+    opacity: 0.8;
+}
+
+/* Full-height image styling */
+#imageContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.full-height-img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
