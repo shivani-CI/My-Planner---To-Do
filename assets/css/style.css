@@ -35,9 +35,21 @@ body {
 }
 
 /* Main content */
-.completed {
-    text-decoration: line-through;
-    color: gray;
+.h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(31, 28, 28);
+}
+
+/* Feedback form */
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(31, 28, 28);
+}
+
+.form-label {
+    color: rgb(31, 28, 28);
 }
 
 /* Overdue task style */
@@ -53,7 +65,7 @@ body {
 }
 
 /* Task List Buttons */
-.edit-btn, .delete-btn {
+.edit-btn, {
     color: #fff;
     background-color: #007bff;
     border: none;
@@ -61,7 +73,10 @@ body {
 }
 
 .delete-btn {
+    color: #fff;
     background-color: #dc3545;
+    border: none;
+    padding: 0.5rem 1rem;
 }
 
 .important-btn, .flag-btn {
@@ -98,5 +113,4 @@ body {
     border-radius: 10px;
 }
 
-/* Media query for small screens */
 
