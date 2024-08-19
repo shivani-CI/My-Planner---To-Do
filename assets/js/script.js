@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryInput = document.getElementById('categoryInput');
     const addTaskButton = document.getElementById('addTaskButton');
     const searchInput = document.getElementById('searchInput');
-    const sidebarLinks = document.querySelectorAll('#sidebar .nav-links');
+    const sidebarLinks = document.querySelectorAll('#sidebar .nav-link');
 
     let filteredTasks = [...tasks];
 
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         taskList.innerHTML = '';
         filteredTasks.forEach((task, index) => {
             const taskItem = document.createElement('li');
-            taskItem.className = `list-group-item d-flex justify-content-between align-items-center${task.completed ? ' completed' : ''}`;
+             taskItem.className = `list-group-item d-flex justify-content-between align-items-center${task.completed ? ' completed' : ''}`;
             taskItem.innerHTML = `
                 <div>
                     <input type="checkbox" class="form-check-input me-2" ${task.completed ? 'checked' : ''}>
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <i class="important-btn fa${task.important ? 's' : 'r'} fa-star me-3"></i>
                     <i class="flag-btn fa${task.flagged ? 's' : 'r'} fa-flag"></i>
                 </div>
-                `;
+            `;
 
             // Mark task as completed
             taskItem.querySelector('input[type="checkbox"]').addEventListener('click', () => {
@@ -69,9 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
             taskItem.querySelector('.edit-btn').addEventListener('click', () => {
                 const newDescription = prompt('Edit task description:', task.description);
                 if (newDescription) {
-                task.description = newDescription;
-                saveTasks();
-                renderTasks();
+                    task.description = newDescription;
+                    saveTasks();
+                    renderTasks();
                 }
             });
 
@@ -101,19 +101,48 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Sidebar link click events
-    sidebarLinks.forEach(link =>) {
+    sidebarLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             sidebarLinks.forEach(link => link.classList.remove('active'));
             e.target.classList.add('active');
             const filter = e.target.getAttribute('data-filter');
             filterTasks(filter);
-        })
+        });
     });
 
+    // Add a new task
+    addTaskButton.addEventListener('click', () => {
+        const taskDescription = taskInput.value.trim();
+        const dueDate = dueDateInput.value;
+        const category = categoryInput.value;
+
+        if (taskDescription) {
+            tasks.push({
+                description: taskDescription,
+                dueDate: dueDate || null,
+                category: category,
+                completed: false,
+                important: false,
+                flagged: false,
+            });
+
+            saveTasks();
+            filterTasks(document.querySelector('#sidebar .nav-link.active').getAttribute('data.filter'));
+
+            // Clear inputs
+            taskInput.value = '';
+            dueDateInput.value = '';
+            categoryInput.value = 'Work';
+        }
+    });
     
-
-
+    // Filter tasks by search
+    searchInput.addEventListener('input', () => {
+        const searchText = searchInput.value.toLowerCase();
+        filteredTasks = tasks.filter(task => task.description.toLowerCase().includes(searchText));
+        renderTasks();
+    });
 
     // Initial render
     filterTasks('all');
