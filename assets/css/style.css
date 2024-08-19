@@ -65,18 +65,16 @@ h2 {
 }
 
 /* Task List Buttons */
-.edit-btn, {
+.edit-btn, .delete-btn {
     color: #fff;
     background-color: #007bff;
     border: none;
     padding: 0.5rem 1rem;
+    text-align: right;
 }
 
-.delete-btn {
-    color: #fff;
-    background-color: #dc3545;
-    border: none;
-    padding: 0.5rem 1rem;
+.delete-btn {    
+    background-color: #dc3545;    
 }
 
 .important-btn, .flag-btn {
@@ -113,4 +111,18 @@ h2 {
     border-radius: 10px;
 }
 
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .container-fluid {
+        padding: 5px;
+    }
 
+    .input-group .form-control, .input-group select, .input-group button {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    #feedbackForm .form-control {
+        font-size: 0.8em;
+    }    
+}

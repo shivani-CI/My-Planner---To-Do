@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         taskList.innerHTML = '';
         filteredTasks.forEach((task, index) => {
             const taskItem = document.createElement('li');
-             taskItem.className = `list-group-item justify-content-between align-items-center${task.completed ? ' completed' : ''}`;
+             taskItem.className = `list-group-item d-flex justify-content-between align-items-center${task.completed ? ' completed' : ''}`;
             taskItem.innerHTML = `
                 <div>
                     <input type="checkbox" class="form-check-input me-2" ${task.completed ? 'checked' : ''}>
