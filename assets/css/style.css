@@ -1,17 +1,11 @@
 /* Apply gradient background */
-main {
-    font-family: "Raleway", sans-serif;
-    /* background-color: rgba(178, 243, 243, 0.9); */
-    /* height: 100vh; */
-    margin: 0;
-    color: #fff;
-}
-
-/* Adjust the container background to make content readable */
 .container-fluid {
     background: linear-gradient(to bottom right, #8ee7e0, #9cd2e6);
+    width: 100%;
     border-radius: 10px;
     padding: 20px;
+    font-family: "Raleway", sans-serif;    
+    margin: 0;
 }
 
 /* Sidebar styles */
