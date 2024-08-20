@@ -1,6 +1,10 @@
 # **My Planner - To Do** 
 
-My Planner - To Do is a simple app built using JavaScript, HTML, CSS and Bootstrap. This app allows you to manage tasks, categorise them and store them locally in your browser. This app is useful tool to organise and it helps make the workload significantly more manageable. It serve as a reminder for what you need to accomplish.
+My Planner - To Do is a simple desktop app built using JavaScript, HTML, CSS and Bootstrap. This app allows you to manage tasks, categorise them and store them locally in your browser. This app is useful tool to organise and it helps make the workload significantly more manageable. It serve as a reminder for what you need to accomplish.
+
+![image](https://github.com/user-attachments/assets/f2bf5f3d-6eb7-4062-bebb-d82feb9fae26)
+
+The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner---To-Do/]
 
 ## Table of Contents ##
 
@@ -26,20 +30,8 @@ My Planner - To Do is a simple app built using JavaScript, HTML, CSS and Bootstr
 ### <ins>**Wireframes**</ins>
 
 ![image](https://github.com/user-attachments/assets/b46d6da0-3fa6-4e38-bf9d-61263738714d)
-
-
-
-
-
 ![image](https://github.com/user-attachments/assets/271946ed-34fd-4b30-b997-2b949ddb9145)
-
-
-
-
-
 ![image](https://github.com/user-attachments/assets/371f13e6-172f-48c3-9354-41af7c063139)
-
-
 
 
 ### <ins>UX - User stories</ins>
@@ -59,19 +51,19 @@ My Planner - To Do is a simple app built using JavaScript, HTML, CSS and Bootstr
 
   #### Colour Scheme
 
-  I wanted to choose colours that calming, so I have chosen a variety of aqua green, aqua blue, white and black
+  I wanted to choose colours that have calming properties, so I have chosen a variety of aqua green, aqua blue, white and black to achieve this.
 
-    ![image](https://github.com/user-attachments/assets/47919951-4751-4b9b-973d-1a28ca6a2a98)
+  ![image](https://github.com/user-attachments/assets/47919951-4751-4b9b-973d-1a28ca6a2a98)
 
   #### Typography
 
-    Google Fonts was used to import the chosen fonts for use in the site. I have chosen to use Raleway and sans-serif fonts.
+  Google Fonts was used to import the chosen fonts for use in the site. I have chosen to use Raleway and sans-serif fonts.
 
   #### Imagery
 
-   Used Pixels for hero image and Pixabay for the icon.
+  Used Pixels for hero image and Pixabay for the icon.
  
-   Font Awesome was used to import icons for list tasks, important tasks, planned tasks and flagged tasks.
+  Font Awesome was used to import icons for list tasks, important tasks, planned tasks and flagged tasks.
    
 ### <ins>UX/UI -  Features</ins>
 
@@ -126,7 +118,7 @@ My Planner - To Do is a simple app built using JavaScript, HTML, CSS and Bootstr
 ![image](https://github.com/user-attachments/assets/f2bf5f3d-6eb7-4062-bebb-d82feb9fae26)
 
 
-Testing was part ongoing process throughout the entire build. I used Chrome developer tools whilst building to pinpoint and troubleshoot any issues.
+Testing was part ongoing process throughout the entire build. I used Chrome developer tools whilst building to find and troubleshoot any issues and errors.
 
 I also utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot issues.
 
@@ -136,12 +128,24 @@ Not just that, I also tested all features manually to ensure app is working and 
 
 I also used W3 Validation service to check the HMTL, W3C CSS Validator for CSS, and JShint to validate the JavaScript. There are no errors in my code.
 
+  <ins> HTML Validation </ins>
+  
+  ![image](https://github.com/user-attachments/assets/593bfe26-29fd-4f2d-baa3-3953dc2b8fd7)
+
+  <ins> CSS Validation </ins>
+
+  ![image](https://github.com/user-attachments/assets/cae4d5c2-f792-4d70-a350-33420fb94d84)
+
+  <ins> JavaScirpt </ins>
+
+  ![image](https://github.com/user-attachments/assets/9b31d464-1e0d-406d-9857-6bef94f0f96c)
+
 
 ### <ins> Deployment </ins>
 
 The site is deployed using GitHub Pages.
 
-The link to my page is: [https://shivani-ci.github.io/My-Planner---To-Do/]
+The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner---To-Do/]
 
 To deploy my app used following steps:
 
@@ -162,13 +166,11 @@ I acknowledge use of external help in my JavaScript coding from Stack Overflow a
 
 ### <ins> Known bugs </ins>
 
-There are no known bugs.
+There are no known bugs
 
 
 ### <ins> Future features </ins>
 
-- Email My Planner - To Do
-
-- Share a link
-
+- Facility to email My Planner - To Do
+- Share a link on different application/ with someone
 - Set reminders for birthdays and other special occasions
