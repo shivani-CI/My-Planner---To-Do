@@ -1,10 +1,10 @@
 # **My Planner - To Do** 
 
-My Planner - To Do is a simple desktop app built using JavaScript, HTML, CSS and Bootstrap. This app allows you to manage tasks, categorise them and store them locally in your browser. This app is useful tool to organise and it helps make the workload significantly more manageable. It serve as a reminder for what you need to accomplish.
+My Planner - To Do is a task management application designed to streamline and enhance your productivity. Whether you're juggling multiple projects, tracking daily responsibilities, or organising personal goals, this app offers a user-friendly and efficient solution to help you stay on top of your tasks and achieve your objectives.
 
 ![image](https://github.com/user-attachments/assets/f2bf5f3d-6eb7-4062-bebb-d82feb9fae26)
 
-The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner---To-Do/]
+The link to My Planner - To Do page: [https://shivani-ci.github.io/My-Planner---To-Do/]
 
 ## Table of Contents ##
 
@@ -20,11 +20,15 @@ The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner
 
 - Deployment
 
+- Technologies Used
+
 - Credits
 
 - Known Bugs
 
 - Future features
+
+  <br>
   
 
 ### <ins>**Wireframes**</ins>
@@ -51,19 +55,37 @@ The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner
 
   #### Colour Scheme
 
-  I wanted to choose colours that have calming properties, so I have chosen a variety of aqua green, aqua blue, white and black to achieve this.
+  The color scheme for this application has been thoughtfully designed with a focus on creating a calming and inviting user experience. The palette primarily features a blend of aqua green and aqua blue tones, chosen for their soothing and tranquil properties. These colors evoke a sense of calm and clarity, making the interface both aesthetically pleasing and easy on the eyes during extended use.
+
+  The aqua green provides a refreshing and natural feel, reminiscent of serene waters, while the aqua blue adds a touch of coolness and depth. Together, they create a balanced and harmonious environment that promotes relaxation and focus.
+
+  Complementing these primary colors, a clean and crisp white is used to enhance readability and provide a sense of openness and simplicity. The white background serves as a neutral canvas that highlights the aqua tones, ensuring that the interface remains uncluttered and visually appealing.
+
+  To complete the palette, black is employed for text and key interface elements, offering strong contrast and ensuring clear, legible content. The black accents also add a touch of sophistication and balance to the overall design.
+
+  This combination of aqua green, aqua blue, white, and black is carefully curated not only for its aesthetic appeal but also for its calming effects, contributing to a user experience that is both peaceful and engaging.
+
+  <br>
 
   ![image](https://github.com/user-attachments/assets/47919951-4751-4b9b-973d-1a28ca6a2a98)
 
   #### Typography
 
-  Google Fonts was used to import the chosen fonts for use in the site. I have chosen to use Raleway and sans-serif fonts.
+  Google Fonts is used to import the chosen fonts for use in the site. I have chosen to use Raleway and sans-serif fonts.
 
   #### Imagery
 
-  Used Pixels for hero image and Pixabay for the icon.
+  The imagery used in the application has been meticulously selected to enhance visual appeal and support the overall design theme.
+
+  - Right Side Image: The right-side image is sourced from Pexels. This image has been chosen for its high-quality and relevant depiction that complements the calming color scheme of the application. Its serene and engaging visual elements help to create a cohesive and immersive user experience, reinforcing the tranquil and inviting atmosphere of the interface.
+
+  - Icon Image for Web Title: The icon used for the web title is sourced from Pixabay, serves as a crucial visual element that enhances brand recognition and adds a polished touch to the application. This icon is selected for its clarity, relevance, and aesthetic alignment with the overall design. By sourcing the icon from Pixabay and carefully converting it into a favicon, the application ensures that they are of high quality.
+
+  By leveraging high-quality, royalty-free images from these reputable sources, the application not only maintains a visually appealing and professional look but also ensures that all graphical elements are consistent with the design principles and enhance the overall user experience.
  
-  Font Awesome was used to import icons for list tasks, important tasks, planned tasks and flagged tasks.
+  The application utilizes Font Awesome to enhance its visual design by incorporating a range of icons for various task categories. Icons for different task types — list tasks, important tasks, planned tasks, and flagged tasks are sourced from Font Awesome.
+
+  The icons used for different tasks categories help users quickly identify and differentiate between various task entries, making task management more efficient.
    
 ### <ins>UX/UI -  Features</ins>
 
@@ -116,15 +138,15 @@ The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner
 ![image](https://github.com/user-attachments/assets/f2bf5f3d-6eb7-4062-bebb-d82feb9fae26)
 
 
-Testing was part ongoing process throughout the entire build. I used Chrome developer tools whilst building to find and troubleshoot any issues and errors.
+The codebase for this application has been rigorously validated to ensure adherence to web standards and best practices.
 
-I also utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot issues.
+- HTML Validation: All HTML code has been thoroughly checked using the W3C HTML Validator, ensuring that it conforms to the latest HTML specifications with no errors. This guarantees that the markup is clean, semantic, and compatible with modern web browsers.
 
-I was constantly checking if my app is responsive on different screen sizes and devices.
+- CSS Validation: The CSS stylesheets have been validated using the W3C CSS Validator. The code has passed validation with no errors, ensuring that the styling is well-structured, compliant with current standards, and optimized for performance across different devices and browsers.
 
-Not just that, I also tested all features manually to ensure app is working and providing great user experience.
+- JavaScript Validation: All JavaScript code has been analyzed using JSHint, a widely respected tool for detecting potential errors and enforcing coding conventions. The code passes JSHint validation without any errors, ensuring it is clean, efficient, and free of common pitfalls.
 
-I also used W3 Validation service to check the HMTL, W3C CSS Validator for CSS, and JShint to validate the JavaScript. There are no errors in my code.
+By validating the code through these industry-standard tools, I ensure that the application is robust, reliable, and built on a solid foundation of well-structured, standards-compliant code. This meticulous validation process contributes to the overall quality, maintainability, and forward compatibility of the application.
 
   <ins> HTML Validation </ins>
   
@@ -140,14 +162,21 @@ I also used W3 Validation service to check the HMTL, W3C CSS Validator for CSS, 
 
   #### <ins> Manual testing <ins>
 
+  - The application operates seamlessly across major web browsers, including Google Chrome, Firefox, Microsoft Edge and safari. This ensures a consistent and reliable user experience regarless of the platform. Each browser has been thoroughly tested to confirm     compatibility, performance and responsiveness, providing users with a smooth and intiutive interface no matter which browser they choose. This cross-browser functinality is crucial for reaching a broad audience and maintain high standards of accessibility and usability.
+
+  - The application is fully responsive, ensuring optimal performance across all device sizes, including desktops, tablets, and smartphones. Whether accessed on a large desktop monitor, a compact tablet, or a mobile phone, the interface adapts fluidly to different screen sizes and resolutions. This responsiveness guarantees a consistent, user-friendly experience, with content and functionality tailored to fit the specific dimensions of the device in use.
+
+    Special attention has been given to maintaining usability and accessibility, with intuitive navigation and scalable elements that enhance readability and interaction on touchscreens. This commitment to a responsive design means that users can seamlessly transition between devices, enjoying a smooth and cohesive experience whether they are working from a desktop at home or checking updates on their mobile device while on the go.
   
 ### <ins> Deployment </ins>
 
-The site is deployed using GitHub Pages.
+Before deployment, ensuring that all code is ready. This includes checking HTML, JavaScript and CSS files, optimizing images, and conducting thorough testing. 
+
+The app is deployed using GitHub Pages.
 
 The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner---To-Do/]
 
-To deploy my app used following steps:
+To deploy My Planner - To Do app used following steps:
 
   - Login to GitHub.
   - Open the project repository.
@@ -157,6 +186,26 @@ To deploy my app used following steps:
   - Choose "/root" folder to deploy from.
   - Click "Save", then wait for it to be deployed.
   - URL will be displayed above "Source".
+
+After deployment, thoroughly test the application in the production environment to ensure that all features work as expected and that there are no deployment-specific issues.
+
+By following these steps, ensuring that My Planner - To Do app is successfully deployed and available to users with a seamless experience and reliable performance.
+
+### <ins> Technologies Used </ins>
+
+My Planner - To Do app leverages a range of modern technologies to deliver a robust, efficient, and user-friendly task management experience. Here’s an overview of the key technologies and tools used in the development of this application:
+
+#### Front-End Technologies
+
+- HTML: The backbone of the application’s structure, HTML ensures semantic and well-structured markup that enhances accessibility and maintainability.
+
+- CSS: Cascading Style Sheets are used to style the application, providing a visually appealing and responsive design. Advanced CSS features like media queries are utilised to ensure compatibility across various devices and screen sizes.
+
+- JavaScript: JavaScript powers the interactive features, such as task management, filtering, and real-time updates. The code is validated with JSHint to ensure quality and adherence to best practices.
+
+#### Back-End Technologies
+
+Local Storage: Data persistence is handled using browser local storage, allowing users to save and retrieve their tasks without requiring server-side storage.
 
 
 ### <ins> Credits </ins>
