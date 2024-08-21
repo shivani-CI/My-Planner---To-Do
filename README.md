@@ -69,40 +69,38 @@ The link to My Planner - To Do page is: [https://shivani-ci.github.io/My-Planner
 
 - Main page
 
-  ![image](https://github.com/user-attachments/assets/98a48e3b-434b-4c1f-a3c7-5a1280ef6af6)
+  ![image](https://github.com/user-attachments/assets/e1a88117-83ca-4af4-86b5-0454e0dce977)
 
  
   1.	Add and categorise tasks - Easily add tasks by entering text into the input field and selecting a category.	Assign tasks to different categories such as General, Work, or Personal.
 
-  ![image](https://github.com/user-attachments/assets/66b8d459-8e18-4e0b-b900-f422545fe4ad)
+     ![image](https://github.com/user-attachments/assets/e87a0c9d-9345-46d9-9030-81a9d5116a6e) 
 
     
   2.	Edit and delete tasks - Edit existing tasks to update their content and remove tasks that are no longer needed.
 
-  ![image](https://github.com/user-attachments/assets/e9ffc798-bab6-457e-88e1-75f27c38145b)
+    ![image](https://github.com/user-attachments/assets/15efeb53-b720-4b03-9c00-dba9aede18d7)
 
 
   3.	Mark Tasks as Completed - Mark tasks as completed, which will visually strike them out.
 
-  ![image](https://github.com/user-attachments/assets/9dc7599a-475f-4b0f-8f5c-78bd8e99f4a1)
-
+    ![image](https://github.com/user-attachments/assets/58a67bb4-b89c-4879-967e-3906185707f8)
+  
 
   4.	Sidebar - Sidebar to navigate tasks by important, planned and flagged categories.
 
-  ![image](https://github.com/user-attachments/assets/b470ad17-e97d-4375-9722-c44ea58d6949)
+    ![image](https://github.com/user-attachments/assets/520ffa08-fa22-4eb2-ae55-3b25cf17faff)
 
-  ![image](https://github.com/user-attachments/assets/fa656656-e1ef-45ef-a624-79991d327ee3)
+    ![image](https://github.com/user-attachments/assets/f6afd231-305e-4123-96ce-7ba415cde125)
 
-  ![image](https://github.com/user-attachments/assets/dcd9d8d3-5b70-43a3-bfc0-da4e211c39ff)
+    ![image](https://github.com/user-attachments/assets/c72c1cc6-558c-4278-a865-12be31337c82)
 
-  ![image](https://github.com/user-attachments/assets/eec1f3f9-d3d4-4e09-a585-2d8fa3f1ad6c)
-
-  ![image](https://github.com/user-attachments/assets/ae1231ab-5f54-48e2-bae5-992c409f0a30)
+    ![image](https://github.com/user-attachments/assets/74eb6f82-90c2-43b4-9f7e-13d5bde9d2b4)
 
 
   5.	Search Tasks - Filter tasks based on keywords using the search bar.
 
-  ![image](https://github.com/user-attachments/assets/1e35efe2-7a88-4fc3-83c3-dd2c9419fd36)
+    ![image](https://github.com/user-attachments/assets/c3c287c2-800f-4bb8-8891-84cd52b7b414)
 
 
   6. Feedback form - Feedback form to receive feedback from users.
@@ -140,7 +138,9 @@ I also used W3 Validation service to check the HMTL, W3C CSS Validator for CSS, 
 
   ![image](https://github.com/user-attachments/assets/9b31d464-1e0d-406d-9857-6bef94f0f96c)
 
+  #### <ins> Manual testing <ins>
 
+  
 ### <ins> Deployment </ins>
 
 The site is deployed using GitHub Pages.
@@ -161,8 +161,11 @@ To deploy my app used following steps:
 
 ### <ins> Credits </ins>
 
-I acknowledge use of external help in my JavaScript coding from Stack Overflow and ChatGPT openAI for enhancing the quality of my work.
+I acknowledge use of external help in my JavaScript coding from Stack Overflow and ChatGPT openAI to help me enhance some features.
 
+I would like to thank Mark Briscoe for his help with Bootstrap. Your expertise and patience has greatly helped with my learning. You make everything seems so easy and fun.
+
+I would like to express my sincere gratitude to Elaine, whose guidance, support, encouragement and resources have been instrumental throughout this project. 
 
 ### <ins> Known bugs </ins>
 
@@ -171,6 +174,7 @@ There are no known bugs
 
 ### <ins> Future features </ins>
 
-- Facility to email My Planner - To Do
-- Share a link on different application/ with someone
-- Set reminders for birthdays and other special occasions
+- Facility to email My Planner - To Do app
+- Sharing app via link
+- Calendar integration
+- Collabrative app
