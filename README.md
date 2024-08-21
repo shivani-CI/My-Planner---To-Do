@@ -94,7 +94,7 @@ The link to My Planner - To Do page: [https://shivani-ci.github.io/My-Planner---
   ![image](https://github.com/user-attachments/assets/e1a88117-83ca-4af4-86b5-0454e0dce977)
 
  
-  1.	Add and categorise tasks - Easily add tasks by entering text into the input field and selecting a category.	Assign tasks to different categories such as General, Work, or Personal.
+  1.	Add and categorise tasks - Easily add tasks by entering text into the input field and selecting a category.	Assign tasks to different categories such as Work, Personal, Important, Planned or Flagged.
 
      ![image](https://github.com/user-attachments/assets/e87a0c9d-9345-46d9-9030-81a9d5116a6e) 
 
