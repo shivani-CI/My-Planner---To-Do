@@ -1,7 +1,7 @@
 /* Apply gradient background */
 .container-fluid {
     background: linear-gradient(to bottom right, #8ee7e0, #9cd2e6);
-    width: 100%;;
+    width: 100%;
     border-radius: 10px;
     padding: 20px;
     font-family: "Raleway", sans-serif;
