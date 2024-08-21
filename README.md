@@ -55,7 +55,7 @@ The link to My Planner - To Do page: [https://shivani-ci.github.io/My-Planner---
 
   #### Colour Scheme
 
-  The color scheme for this application has been thoughtfully designed with a focus on creating a calming and inviting user experience. The palette primarily features a blend of aqua green and aqua blue tones, chosen for their soothing and tranquil properties. These colors evoke a sense of calm and clarity, making the interface both aesthetically pleasing and easy on the eyes during extended use.
+  The colour scheme for this application has been thoughtfully designed with a focus on creating a calming and inviting user experience. The palette primarily features a blend of aqua green and aqua blue tones, chosen for their soothing and tranquil properties. These colors evoke a sense of calm and clarity, making the interface both aesthetically pleasing and easy on the eyes during extended use.
 
   The aqua green provides a refreshing and natural feel, reminiscent of serene waters, while the aqua blue adds a touch of coolness and depth. Together, they create a balanced and harmonious environment that promotes relaxation and focus.
 
