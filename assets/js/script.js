@@ -1,3 +1,4 @@
+// New JavaScript features ES6 
 document.addEventListener('DOMContentLoaded', () => {
     // Load tasks from local storage
     const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
@@ -22,11 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
         taskList.innerHTML = '';
         filteredTasks.forEach((task, index) => {
             const taskItem = document.createElement('li');
-             taskItem.className = `list-group-item d-flex justify-content-between align-items-center${task.completed ? ' completed' : ''}`;
+            taskItem.className = `list-group-item d-flex justify-content-between align-items-center${task.completed ? ' completed' : ''}`;
             taskItem.innerHTML = `
                 <div>
                     <input type="checkbox" class="form-check-input me-2" ${task.completed ? 'checked' : ''}>
-                    <span class="task-desc">${task.description}</span>
+                    <span class="task-desc ${task.completed ? 'completed-task' : ''}">${task.description}</span>
                     ${task.dueDate ? `<small class="due-date ms-2 ${new Date(task.dueDate) < new Date() ? 'overdue' : ''}">(${task.dueDate})</small>` : ''}
                 </div>
                 <div>
@@ -60,9 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Delete task
             taskItem.querySelector('.delete-btn').addEventListener('click', () => {
-                tasks.splice(index, 1);
-                saveTasks();
-                renderTasks();
+                tasks.splice(index, 1); //Remove the task from the array
+                saveTasks();    // Save the updated tasks array to local storage
+                taskItem.remove(); //Immediately remove the task from the DOM
             });
 
             // Edit task
@@ -128,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             saveTasks();
-            filterTasks(document.querySelector('#sidebar .nav-link.active').getAttribute('data.filter'));
+            filterTasks(document.querySelector('#sidebar .nav-link.active').getAttribute('data-filter'));
 
             // Clear inputs
             taskInput.value = '';
